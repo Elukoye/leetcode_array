@@ -1,6 +1,7 @@
-**********************
+*****************
+Find Pivot Index
+*****************
 def pivot_index(nums)
-**********************
   sum = nums.inject { |acc, n| acc + n }
   left = 0
   right = 0
